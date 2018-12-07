@@ -88,7 +88,8 @@ class PrintInformation(QObject):
             "skirt": catalog.i18nc("@tooltip", "Skirt"),
             "travel": catalog.i18nc("@tooltip", "Travel"),
             "retract": catalog.i18nc("@tooltip", "Retractions"),
-            "none": catalog.i18nc("@tooltip", "Other")
+            "none": catalog.i18nc("@tooltip", "Other"),
+            "prime_tower": catalog.i18nc("@tooltip", "Prime Tower")
         }
 
         self._print_times_per_feature = {}  # type: Dict[int, Dict[str, Duration]]

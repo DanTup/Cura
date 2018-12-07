@@ -738,7 +738,8 @@ class CuraEngineBackend(QObject, Backend):
             "skirt": message.time_skirt,
             "travel": message.time_travel,
             "retract": message.time_retract,
-            "none": message.time_none
+            "none": message.time_none,
+            "prime_tower": message.time_prime_tower
         }
         return result
 
